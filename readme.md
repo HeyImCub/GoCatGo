@@ -7,6 +7,8 @@ Uses golang embed to combine a nyancat tcp server with any binary
 Made quickly and there's probably way better examples of golang:embed and better ways to achive this goal
 
 Steps:
+
+*Recomended to use formatter.py*
 * IF NOT USING `formatter.py`
     * inputBinary has to be named inputBinary
     * Build the image with a custom name
