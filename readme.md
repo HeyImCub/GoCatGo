@@ -22,5 +22,7 @@ Steps:
 * Using `formatter.py`
     * `python ./formatter.py inputFile dockerImgName binaryOutput tcpServPort`
 
+* Both methods should put the binary in the bin folder
+* arguments will pass to the original binary
 Notes:
 * Once the image is built it is custom for each input binary :)
