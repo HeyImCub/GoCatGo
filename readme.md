@@ -28,3 +28,9 @@ Steps:
 * arguments will pass to the original binary
 Notes:
 * Once the image is built it is custom for each input binary :)
+Files:
+* dockerfile - uses a docker image to build the binary
+* formatter.py - will execute the docker commands needed to run the image with the correct values
+* inputBinary - the binary that the docker image used. The file that is used as input will be deleted and inputBinary will become it
+* main.go - does the main golang stuff
+* program.sh - formats everything in the docker container
